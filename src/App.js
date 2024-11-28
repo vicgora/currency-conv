@@ -54,7 +54,8 @@ function App() {
                     <h2>Conversor Euro-Dólar</h2>
                 </div>
                 <div id="euro">
-                    <input type="text" size={4} ref={inputEuro} />€
+                    <input type="text" size={4} ref={inputEuro} />
+                    <strong>€</strong>
                 </div>
                 <div id="convertir">
                     <button onClick={convertirUSD}>Convertir</button>
@@ -68,7 +69,8 @@ function App() {
                     <h2>Conversor Dólar-Euro</h2>
                 </div>
                 <div id="dolar">
-                    <input type="text" size={4} ref={inputDolar} />$
+                    <input type="text" size={4} ref={inputDolar} />
+                    <strong>$</strong>
                 </div>
                 <div id="convertir">
                     <button onClick={convertirEUR}>Convertir</button>
